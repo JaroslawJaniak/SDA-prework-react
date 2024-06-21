@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = ({}) => {
   return (
     <header className={`${styles.headerContainer} ${styles.stickyHeader}`}>
-      <h2>Redux - Hooks - ReactApp Vite - Prework</h2>
+      <h2>React-Context-Redux - ReactApp Vite - Prework</h2>
       <nav>
         <Link to="/" className={styles.headerLink}>
           VitePage
